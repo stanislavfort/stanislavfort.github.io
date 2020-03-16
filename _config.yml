@@ -7,7 +7,7 @@
 # https://learnxinyminutes.com/docs/yaml/
 
 title: Stanislav Fort's personal blog
-description: A personal blog by Stanislav Fort
+description: Posts on machine learning, artificial intelligence and physics
 github_username: stanislavfort
 
 # Email and twitter are optional:
@@ -15,7 +15,7 @@ email:
 twitter_username:
 
 # Set this to true to get LaTeX math equation support
-use_math: True
+use_math: true
 
 # Add your Google Analytics ID here if you have one and want to use it
 google_analytics:
