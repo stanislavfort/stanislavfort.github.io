@@ -6,13 +6,13 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: Stanislav Fort's personal blog
+title: Stanislav Fort's research blog
 description: Posts on machine learning, artificial intelligence and physics
 github_username: stanislavfort
 
 # Email and twitter are optional:
 email:
-twitter_username:
+twitter_username: stanislavfort
 
 # Set this to true to get LaTeX math equation support
 use_math: true
