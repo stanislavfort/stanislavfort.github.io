@@ -103,7 +103,7 @@ This also holds for *non-integer values of $n$*, and will roughly hold until $n 
 ### 3.3 Small changes in forces
 Let us go back to the power-law attractive force $F(r) = - C m r^{\alpha}$. The attractive force at radius $R = R_0 + \varepsilon$ is $F(R_0 + \varepsilon) = - C m (R_0 + \varepsilon)^{\alpha}$. This is suspiciously similar to the mathematical expansion we derived above, and after a small change into $- C m R_0^\alpha (1 + \varepsilon / R_0)^{\alpha}$, this is *exactly* the right form. Since we assume $\varepsilon$ to be small compared to $R_0$, we can expand the bracket approximately as
 [%
-F(R_0 + \varepsilon) \approx - C m R_0^\alpha (1 + \alpha \varepsilon / R_0) \, .
+F(R_0 + \varepsilon) \approx - C m R_0^{\alpha} (1 + \alpha \varepsilon / R_0) \, .
 %]
 
 How does the centrifugal force change? As derived before, we have the new force
@@ -117,7 +117,7 @@ F_c(R_0 + \varepsilon) = \Omega_0^2 R_0 m (1 + \varepsilon/R_0)^{-3} \approx \Om
 
 While for the circular trajectory the net force on the test mass was $0$ (the gravitational force and centrifugal force were exactly balanced), the small kick $\varepsilon$ introduced a mismatch between these two forces. The total force $F_t(\varepsilon)$ is
 [%
-F_t(\varepsilon) \approx \Omega_0^2 R_0 m (1 - 3 \varepsilon/R_0) - C m R_0^\alpha (1 + \alpha \varepsilon / R_0) \, .  
+F_t(\varepsilon) \approx \Omega_0^2 R_0 m (1 - 3 \varepsilon / R_0) - C m R_0^\alpha (1 + \alpha \varepsilon / R_0) \, .  
 %]
 
 From the derivation of the circular orbit, we know that $\Omega_0^2 R_0 m = C m R_0^\alpha$. We therefore get
