@@ -183,18 +183,18 @@ The compounding effect of the correction over many orbits, however, will in fact
 
 Of course, this does not capture *all* of the relativistic effects we could potentially be interested in, however, for our purposes, this is exactly what we need. The additional term, while nicely absorbed to the centrifugal force, could also be viewed on its own, as an additional $\propto 1/R^3$ part of the gravitational force. Then
 [%
-F_t(R) = - G \frac{Mm}{R^2} - 3 \frac{\mu \Omega^2 m }{R^3} + \Omega^2 m R \, .
+F_t(R) =-G \frac{Mm}{R^2} - 3 \frac{\mu \Omega^2 m }{R^3} + \Omega^2 m R \, .
 %]
 Either way, this does not actually influence the calculations that follow, and you can choose whichever way of conceptualizing the additional force term.
 
 ### 7.2 Circular orbit and a perturbation
 The circular orbit using this new, general relativistic centrifugal force will satisfy the balance of forces
 [%
-- G \frac{M m}{R_0^2} +  \Omega_0^2 m R_0 \left ( 1 - \frac{3 \mu}{R_0} \right ) = 0 \, .
+\,-G \frac{M m}{R_0^2} +  \Omega_0^2 m R_0 \left ( 1 - \frac{3 \mu}{R_0} \right ) = 0 \, .
 %]
 Perturbing the radius again as $R = R_0 + \varepsilon$, we will conserve the angular momentum by having $\Omega = \Omega_0 \frac{R_0^2}{R^2}$. The gravitational force at $R_0 + \varepsilon$ is
 [%
-- G \frac{M m}{(R_0+\varepsilon)^2} \approx - G \frac{M m}{R_0^2} \left ( 1 - 2 \frac{\varepsilon}{R_0} \right ) \, ,
+\,-G \frac{M m}{(R_0+\varepsilon)^2} \approx - G \frac{M m}{R_0^2} \left ( 1 - 2 \frac{\varepsilon}{R_0} \right ) \, ,
 %]
 using the same expansion trick as before. For the centrifugal part of the force, we get a slightly more complicated expression
 [%
