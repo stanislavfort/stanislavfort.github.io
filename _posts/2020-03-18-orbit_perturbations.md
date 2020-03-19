@@ -1,8 +1,9 @@
-# The closure of near-circular orbits and the relativistic precession of Mercury's perihelion using high school math
+# Perturbing circular orbits and General Relativity
+### The closure of near-circular orbits and the relativistic precession of Mercury's perihelion using high school math
 
-## Stanislav Fort ([Twitter](https://twitter.com/stanislavfort) and [GitHub](https://github.com/stanislavfort))
+### Stanislav Fort ([Twitter](https://twitter.com/stanislavfort) and [GitHub](https://github.com/stanislavfort))
 
-## Table of Contents
+## Table of contents
 1. [Introduction](#introduction)
 2. [Setting up the problem](#setup)
 3. [Perturbing the circular orbit](#perturbing)
