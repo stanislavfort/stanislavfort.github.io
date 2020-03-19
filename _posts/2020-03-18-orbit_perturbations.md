@@ -36,6 +36,8 @@ Of course, centrifugal force is in a sense *not real*. In this treatment, we wil
 The centrifugal force is $F_c(r) = \Omega^2 m r$ for a body of mass $m$ moving with angular velocity $\Omega$ at radius $r$ from the origin. Understanding that the actual, linear tangential velocity is $v_t = \Omega r$, we recover the familiar form $F_c(r) = m v_t^2 / r$, however, the angular form will be easier to work with later. The circular orbit therefore has to satisfy the balance of the attractive force $F(R_0)$ and the centrifugal force $F_c(R_0, \Omega_0)$ as
 $$F(R_0) + \Omega_0^2 R_0 m = 0 \, .$$
 
+$$ T = e = s = t $$
+
 ### 2.2 Power-law attractive force
 While correct, the setup above is too general to be very instructive. Let us now consider a particular kind of force laws which depend on the radius $r$ with a particular power $\alpha$. Such a force law could generally be written as
 $$
