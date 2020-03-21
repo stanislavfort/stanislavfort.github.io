@@ -12,7 +12,7 @@
 6. [Slight modification of Newton's gravity](#modification)
 7. [General Relativity made simple](#GR)
 8. [Stability and existence of orbits around black holes](#stability)
-9. [Closure of near-circular orbits vs. large perturbations] (#finite)
+9. [Closure of near-circular orbits vs large perturbations](#finite)
 10. [(Optional nitpicking)](#nitpick)
 
 ## 1. Introduction <a name="introduction"></a>
