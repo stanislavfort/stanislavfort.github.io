@@ -12,8 +12,8 @@
 6. [Slight modification of Newton's gravity](#modification)
 7. [General Relativity made simple](#GR)
 8. [Stability and existence of orbits around black holes](#stability)
-9. [(Optional nitpicking)](#nitpick)
-
+9. [Closure of near-circular orbits vs. large perturbations] (#finite)
+10. [(Optional nitpicking)](#nitpick)
 
 ## 1. Introduction <a name="introduction"></a>
 When I was diving into physics high school, I was always puzzled by the fact that in [Newton's theory of gravitation](https://en.wikipedia.org/wiki/Newton%27s_law_of_universal_gravitation), the orbits of small test bodies that were gravitationally bound to a much more massive, central body would generically be *closed*, i.e. the trajectory would wrap back around onto itself after each revolution around the central body. After all, I could very much imagine a situation where the Earth would not return *exactly* to the same position after a full orbit around the Sun.
@@ -253,12 +253,19 @@ For $R > 6 \mu$, this will indeed always push the perturbation *back* to its ori
 
 Using our simple analyses, we were able to derive two really intriguing properties of black holes. For radii $R < 3 R_s$ circular orbits around them become unstable, and for $R < \frac{3}{2} R_s$ they do not exist at all!  
 
-## 9. (Optional nitpicking)<a name = "nitpick"></a>
+## 9. Closure of near-circular orbits vs. large perturbations <a name="finite"></a>
+You might have noticed that throughout the derivations above, we were always assuming that the radial perturbation $\varepsilon$ was significantly smaller in magnitude than the original radius of the circular orbit $R_0$, i.e. $|\varepsilon| \ll R_0$. Therefore all the results we have derived are only applicable for trajectories that deviate from the circular orbit at most by a small amount. While this might be sufficient for calculating the orbital precession of Mercury and the stability of circular trajectories around black holes, a statement about the existence of closed orbits for a particular force law should *ideally* hold for perturbations of *any* size, as long as the perturbed orbit stays bound.
 
-### 9.1 Keeping the angular momentum constant <a name="Lconstant"></a>
+After posting this article on Twitter, [Professor Austen Lamacraft]("https://www.phy.cam.ac.uk/directory/lamacrafta") from the University of Cambridge (who coincidentally taught the Theoretical Physics II class during my undergrad) pointed out the existence of [Bertrand's theorem](https://en.wikipedia.org/wiki/Bertrand%27s_theorem). Bertrand's theorem states that while the near-circular orbits for power law force laws $F(r) \propto -r^\alpha$ might be closed for any $\alpha$ of the form $n^2 - 3$ for all $n \ge 1$ (i.e. $\alpha = -2,1,6,13,\dots$ as we derived earlier), **the only force laws that lead to closed bound orbits in general are $F(r) \propto -1/r^2$ (e.g. Newton's gravity) and $F(r) \propto -r$ (e.g. Hook's law = a spring)**. $\alpha = -2$ and $\alpha = 1$ will lead to closed orbits that can differ *as much as they want* from the circular orbit, and still remain closed.
+
+The actual proof of the Bertrand's theorem goes beyond the level of mathematics we were using here, and I will therefore not attempt to replicate it in this post. However, if you are interested, the [Wikipedia article](https://en.wikipedia.org/wiki/Bertrand%27s_theorem) gives a good description.
+
+## 10. (Optional nitpicking)<a name = "nitpick"></a>
+
+### 10.1 Keeping the angular momentum constant <a name="Lconstant"></a>
 To be more precise, any orbit will be characterized by its total mechanical energy $E$ and angular momentum $L$. If these two values are the same, then the resulting orbit is the same, up to its position (rotation) in space. The tuple $(E,L)$ specifying the original circular orbit now turned into $(E^{\prime},L)$, since the small kick changed the total energy, while we chose to maintain the angular momentum constant. If we didn't make that choice, the new orbit would be $(E^{\prime\prime},L^{\prime\prime})$, where both the energy and angular momentum differ. To find a perturbed trajectory as close as possible to the original circular trajectory, we chose to keep $L$ constant.  
 
-### 9.2 Radial perturbations are all good, but what about angular perturbations?<a name="angularperturbation"></a>
+### 10.2 Radial perturbations are all good, but what about angular perturbations?<a name="angularperturbation"></a>
 As you might have realized while reading our derivation, we never explicitly dealt with the fact that on top of the radial perturbation $\varepsilon(t)$, there will also be an angular perturbation $\theta(t)$. While the radial perturbation shifts the radius away from the circular orbit radius to $R(t) = R_0 + \varepsilon(t)$, the angular perturbation would add a small offset to the steady rotation of the test body around the central body as $\varphi(t) = \Omega_0 t + \theta(t)$. Why was it OK to ignore the angular perturbation?
 
 The angular velocity at radius $R$ is $\Omega(R) = \Omega_0 \frac{R_0^2}{R^2}$ due to the conservation of angular momentum (also called the [second Kepler's law](https://en.wikipedia.org/wiki/Kepler%27s_laws_of_planetary_motion#Second_law_of_Kepler)). The rate of change of $\varphi(t)$ with time is $\Omega_0 + \dot{\theta}$, where $\Omega_0$ is the steady march of the orbit around the central body, and $\dot{\theta}$ is the additional angular velocity from the time change of the angular perturbation. The total angular velocity is $\Omega$, and therefore
