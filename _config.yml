@@ -43,5 +43,5 @@ kramdown:
   syntax_highlighter: rouge
 
 toc:
-  max_level: 2
+  max_level: 1
   item_prefix: toc-

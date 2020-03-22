@@ -4,7 +4,7 @@
 Stanislav Fort ([Twitter](https://twitter.com/stanislavfort) & [GitHub](https://github.com/stanislavfort))
 
 
-0. TOC
+* TOC
 {:toc}
 
 ## 1. Introduction <a name="introduction"></a>
