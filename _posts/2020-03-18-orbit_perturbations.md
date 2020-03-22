@@ -3,17 +3,9 @@
 
 ### Stanislav Fort ([Twitter](https://twitter.com/stanislavfort) and [GitHub](https://github.com/stanislavfort))
 
+
 ## Table of contents
-1. [Introduction](#introduction)
-2. [Setting up the problem](#setup)
-3. [Perturbing the circular orbit](#perturbing)
-4. [The harmonic oscillator hidden there](#harmonic)
-5. [Closure of power-law force orbits](#closure)
-6. [Slight modification of Newton's gravity](#modification)
-7. [General Relativity made simple](#GR)
-8. [Stability and existence of orbits around black holes](#stability)
-9. [Closure of near-circular orbits vs large perturbations](#finite)
-10. [(Optional nitpicking)](#nitpick)
+{:toc}
 
 ## 1. Introduction <a name="introduction"></a>
 When I was diving into physics high school, I was always puzzled by the fact that in [Newton's theory of gravitation](https://en.wikipedia.org/wiki/Newton%27s_law_of_universal_gravitation), the orbits of small test bodies that were gravitationally bound to a much more massive, central body would generically be *closed*, i.e. the trajectory would wrap back around onto itself after each revolution around the central body. After all, I could very much imagine a situation where the Earth would not return *exactly* to the same position after a full orbit around the Sun.
