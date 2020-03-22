@@ -41,3 +41,7 @@ kramdown:
   auto_ids: true
   hard_wrap: false
   syntax_highlighter: rouge
+
+toc:
+  max_level: 2
+  item_prefix: toc-
