@@ -5,6 +5,7 @@
 
 
 ## Table of contents
+0. TOC
 {:toc}
 
 ## 1. Introduction <a name="introduction"></a>
