@@ -53,7 +53,8 @@ It turns out that adversarial examples are very easy to find (<100 gradient step
 
 
 If you find this blogpost useful and would like to cite it, please use the following BibTeX:
-> @misc{
+<span style="font-size:1em;">
+> @misc{<br/>
 >	Fort2021CLIPadversarial,<br/>
 >	title={Adversarial examples for the OpenAI CLIP in its zero-shot classification regime and their semantic generalization},<br/>
 >	url={https://stanislavfort.github.io/2021/01/12/OpenAI_CLIP_adversarial_examples.html},<br/>
@@ -61,3 +62,4 @@ If you find this blogpost useful and would like to cite it, please use the follo
 >	year={2021},<br/>
 >	month={Jan}<br/>
 >}<br/>
+</span>
