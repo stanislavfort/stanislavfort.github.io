@@ -50,3 +50,14 @@ Here's an example of such a generalization that you generate in my [Google Colab
 
 ## 5. Conclusion
 It turns out that adversarial examples are very easy to find (<100 gradient steps typically) for the [OpenAI CLIP](https://openai.com/blog/clip/) model in the zero-shot classification regime. Those adversarial examples generalize to semantically related text descriptions of the adversarial class. For example, an image of a "cat" turned into a "jet" by an adversarial perturbation will also read as a "plane", and more surprisingly even as a "vehicle that flies in the air" to the model. To me this shows that the adversarial image actually **looks like the adversarial class** to the model and that it's not a peculiar consequence of the specific label (e.g. "jet"). The existence of adversarial examples in a model that is this far away from the usual classification paradigm is quite interesting to me, but it might not be unsurprising to others. If you'd like to regenerate my results in this post, or play with the model yourself, **I prepared a [Google Colab](https://github.com/stanislavfort/OpenAI_CLIP_adversarial_examples/blob/main/OpenAI_CLIP_adversarial_images_playground.ipynb) that you can run in <5 minutes on a free GPU.**
+
+
+If you find this blogpost useful and would like to cite it, please use the following BibTeX:
+> @misc{
+>	Fort2021CLIPadversarial,<br/>
+>	title={Adversarial examples for the OpenAI CLIP in its zero-shot classification regime and their semantic generalization},<br/>
+>	url={https://stanislavfort.github.io/2021/01/12/OpenAI_CLIP_adversarial_examples.html},<br/>
+>	author={Stanislav Fort},<br/>
+>	year={2021},<br/>
+>	month={Jan}<br/>
+>}<br/>
