@@ -22,13 +22,13 @@ Using CLIP in a zero-shot classification regime is relatively straightforward an
 
 ## 3. Using hand-written class label stickers
 
-Instead of getting e.g. a physical apple and putting a piece of paper over it saying **CAR** (the way they did in the [OpenAI blog post](https://openai.com/blog/multimodal-neurons/) with an Apple and the word "iPod" on a post-it note), I went for the DIY low cost solution -- I hand-wrote the class names on a piece of paper, cropped them out, and saved them as individual [png files on my github](https://github.com/stanislavfort/OpenAI_CLIP_adversarial_examples/tree/main/stickers). They don't look amazing, but turn out to do the job just fine.
+Instead of getting e.g. a physical apple and putting a piece of paper over it saying **CAR** (the way they did in the [OpenAI blog post](https://openai.com/blog/multimodal-neurons/) with an apple and the word "iPod" on a post-it note), I hand-wrote the class names on a piece of paper, cropped them out, and saved them as individual [png files on my github](https://github.com/stanislavfort/OpenAI_CLIP_adversarial_examples/tree/main/stickers).
 
 An example of my DIY "adversarial" sticker for the class *automobile*:
 
 <img src="sticker_automobile.png" ALIGN="center" height="50%" width="50%">
 
-I then pasted these stickers on CIFAR-10 images to verify that indeed CLIP will classify the image based on what's written on the sticker. Interestingly, while in my [previous post](https://stanislavfort.github.io/2021/01/12/OpenAI_CLIP_adversarial_examples.html) I reported 87.37% test accuracy on [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) (similar to a purpose trained ResNet20v1 without batch norm) without any additional finetuning, completely zero-shot and out of the box, the test images + the sticker of the ground truth class plastered over it gives **100% test accuracy** (literally no mistake on the 10,000 CIFAR-10 test images)! (check out [my Colab](https://github.com/stanislavfort/OpenAI_CLIP_adversarial_examples/blob/main/presentable_OpenAI_CLIP_stickers_and_adversaries.ipynb) where you can replicate this result in a few minutes on a free GPU)
+I then pasted these stickers on CIFAR-10 images to verify that indeed CLIP will classify the image based on what's written on the sticker. Interestingly, while in my [previous post](https://stanislavfort.github.io/2021/01/12/OpenAI_CLIP_adversarial_examples.html) I reported 87.37% test accuracy on [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) (similar to a purpose trained ResNet20v1 without batch norm) without any additional finetuning, completely zero-shot and out of the box, the test images + the sticker of the ground truth class plastered over it gives **100% test accuracy** (literally no mistake on the 10,000 CIFAR-10 test images)!
 
 Here are some examples of the test set images + the corresponding class stickers plastered over them:
 
