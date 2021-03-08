@@ -28,11 +28,19 @@ An example of my DIY "adversarial" sticker for the class *automobile*:
 
 <img src="sticker_automobile.png" ALIGN="center" height="50%" width="50%">
 
-I pasted these stickers on CIFAR-10 images to verify that indeed CLIP will classify the image based on what's written on the sticker. Interestingly, while in my [previous post](https://stanislavfort.github.io/2021/01/12/OpenAI_CLIP_adversarial_examples.html) I reported 87.37% test accuracy on [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) (similar to a purpose trained ResNet20v1 without batch norm) without any additional finetuning, completely zero-shot and out of the box, the test images + the sticker of the ground truth class plastered over it gives **100% test accuracy** (literally not a single mistake on the 10,000 CIFAR-10 test images)! This is without any finetuning at all, showing that CLIP is actually *really* good at reading the text in the image. 
+I pasted these stickers on CIFAR-10 images to verify that indeed CLIP will classify the image based on what's written on the sticker. Interestingly, while in my [previous post](https://stanislavfort.github.io/2021/01/12/OpenAI_CLIP_adversarial_examples.html) I reported 87.37% test accuracy on [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) (similar to a purpose trained ResNet20v1 without batch norm) without any additional finetuning, completely zero-shot and out of the box, the test images + the sticker of the ground truth class plastered over it gives **100% test accuracy** (literally not a single mistake on the 10,000 CIFAR-10 test images)! This is without any finetuning at all, showing that CLIP is actually *really* good at reading the text in the image.
 
 Here are some examples of the test set images + the corresponding class stickers plastered over them:
 
 <img src="images_with_stickers.png" ALIGN="right" height="100%" width="100%">
+
+Here is an example of adding the ground truth class label sticker onto a test set image, increasing the already high probability of the correct class. Despite that, an adversarial perturbation (right column) can still change the class very easily.
+
+<img src="same_class_sticker_example1.png" ALIGN="right" height="100%" width="100%">
+
+In some cases, CLIP makes mistakes on the CIFAR-10 test set (to be precise, in 12.63% = 100% - 87.37% cases). Adding a sticker with the correct class always leads to the correct classification there. Here is an example of a frog being misclassified as a *bird* first, and then correctly classified as a *frog* after adding a sticker spelling out **F R O G** on it. Yet again, a small pixel-level adversarial perturbation easily changed the class to a confident *automobile*:
+
+<img src="same_class_sticker_example2_mistakefirst.png" ALIGN="right" height="100%" width="100%">
 
 ## 4. Class sticker versus adversarial pixel-level perturbation
 
@@ -56,7 +64,7 @@ It is again very easy to flip the classification decision *even with the sticker
 
 ## 5. Pixels beat text, beat pixels, beat text, ....
 
-What if I try to reverse the pixel-level adversarial attack with *another* sticker? And what if then, I again try to generate an adversarial attack to *that* using a *new* pixel-level perturbation? And then, what if I use a sticker *again*? 
+What if I try to reverse the pixel-level adversarial attack with *another* sticker? And what if then, I again try to generate an adversarial attack to *that* using a *new* pixel-level perturbation? And then, what if I use a sticker *again*?
 
 In this experiment, I started with an original image that CLIP correctly classifies as e.g. a *cat* (Example 1). Putting a **T R U C K** sticker on it changes the decision partially to a *truck* (with some *cat* still lingering on). However, an adversarial attack towards *dog* easily turns the image into a convincing dog. As I repeat the operation (put a **T R U C K** sticker there, adversarially perturb towards *dog*), the classification decision seems to follow whatever the recent action was.
 
