@@ -99,10 +99,10 @@ The *ship* class (towards which we tried to generate the adversarial perturbatio
 Starting with the first example from Section 4.1, I took the **D E E R** sticker that was adversarially modified towards *automobile*, and plastered it over unmodified training images to see whether the pixel-level attack or the text would win.
 
 Example 1:
-<img src="transplant_sticker_example1.png" ALIGN="center" height="50%" width="50%">
+<img src="transplant_sticker_example1.png" ALIGN="center" height="70%" width="70%">
 
 Example 2:
-<img src="transplant_sticker_example2.png" ALIGN="center" height="50%" width="50%">
+<img src="transplant_sticker_example2.png" ALIGN="center" height="70%" width="70%">
 
 It turned out that neither was the case. The model could still read the sticker text **D E E R** to some extent, as shown by the class *deer* probability growing slightly compared to the original image. The pixel-level adversarial modification to the sticker towards an *automobile* also showed in a similar way. However, the winning class turned out to be the *actual* semantic class of the image. Neither the pixel level attack to the sticker, nor the text on the sticker itself were sufficient to change the decision. This shows that the adversarial attack to the sticker was quite brittle, and that changing the underlying image made it ineffective. However, the text on the sticker itself proved to be equally easy to disrupt.
 
