@@ -62,6 +62,50 @@ Example 3:
 
 It is again very easy to flip the classification decision *even with the sticker*, which we might a priori assume would be harder given how much of a boost in test accuracy adding the relevant stickers made. This shows how ubiquitous adversarial vulnerabilities are.
 
+## 4.1 Localizing adversarial attacks
+**[Update March 15 2021]**: After talking to [Rohin Shah](https://rohinshah.com/) and [Yihui Quek](https://stanford.edu/~yquek/) about it, I tried locating the effect of the pixel-level perturbation in the image. I tried 3 options:
+1. allowing changes in all pixels, including the sticker
+2. allowing pixel changes only in the parts of the image not obstructed by the sticker
+3. allowing changes within the sticker only.
+
+My conclusion is that the sticker itself and the model's ability to read it is not very brittle to pixel-level perturbations, at least not to the same extent as the rest of the image itself. This could potentially be due to the limited area of the sticker.
+
+Here are examples of the 3 possibilities. First, allowing pixel changes in the full image, including the sticker:
+<img src="masked_gradient_flip_full_example2.png" ALIGN="right" height="100%" width="100%">
+
+In this case, the sticker changed a *bird* into a convincing *deer*. A pixel-level attack on the resulting composite image turned it into a high confidence *automobile*. Looking at the last column, we can see that all pixels changed by some amount.
+
+In the second case, we restrict pixel changes to *outside* of the sticker only:
+<img src="masked_gradient_flip_image_example2.png" ALIGN="right" height="100%" width="100%">
+
+We can see that the attack was able to turn the image into a *automobile* slightly less convincingly than before (98% before, 96% now).
+
+When we restrict our perturbations to lie within the sticker itself, the same budged we used in the previous two cases is less capable of changing the class to an *automobile*:
+<img src="masked_gradient_flip_sticker_example2.png" ALIGN="right" height="100%" width="100%">
+
+We see that the model is still able to read the **D E E R** spelled out on the sticker successfully, assigning it a small probability.
+
+In many cases, the adversarial attack would not be able to change the class decision with the same budget when restricted to the sticker pixels only.
+
+
+In another case that was quite typical of my experiments, the model was still able to read the label successfully despite the adversarial attack:
+<img src="masked_gradient_flip_sticker_example1.png" ALIGN="right" height="100%" width="100%">
+
+The *ship* class (towards which we tried to generate the adversarial perturbation) grew in probability, however, the perturbation was not able to flip the decision. Interestingly, the actual semantic class of the image, a *bird*, started showing more in the resulting decision. My interpretation is that the adversarial attack damaged the model's ability to read the sticker to an extent, loosening its sway over the model's decision.
+
+## 4.2 Transplanting adversarially attacked stickers
+**[Update March 15 2021]**: After talking to [Rohin Shah](https://rohinshah.com/) about it, I tried taking a sticker that was previously adversarially modified in its pixels, and adding it to new images. The goal was to see if the model would still be able to read it, and modify the class decision towards the text, or whether the pixel-level perturbation now contained in the sticker will win over.
+
+Starting with the first example from Section 4.1, I took the **D E E R** sticker that was adversarially modified towards *automobile*, and plastered it over unmodified training images to see whether the pixel-level attack or the text would win.
+
+Example 1:
+<img src="transplant_sticker_example1.png" ALIGN="center" height="50%" width="50%">
+
+Example 2:
+<img src="transplant_sticker_example2.png" ALIGN="center" height="50%" width="50%">
+
+It turned out that neither was the case. The model could still read the sticker text **D E E R** to some extent, as shown by the class *deer* probability growing slightly compared to the original image. The pixel-level adversarial modification to the sticker towards an *automobile* also showed in a similar way. However, the winning class turned out to be the *actual* semantic class of the image. Neither the pixel level attack to the sticker, nor the text on the sticker itself were sufficient to change the decision. This shows that the adversarial attack to the sticker was quite brittle, and that changing the underlying image made it ineffective. However, the text on the sticker itself proved to be equally easy to disrupt.
+
 ## 5. Pixels beat text, beat pixels, beat text, ....
 
 What if I try to reverse the pixel-level adversarial attack with *another* sticker? And what if then, I again try to generate an adversarial attack to *that* using a *new* pixel-level perturbation? And then, what if I use a sticker *again*?
