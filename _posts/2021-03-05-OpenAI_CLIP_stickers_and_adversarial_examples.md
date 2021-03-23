@@ -132,7 +132,7 @@ If you find this blog post useful and would like to cite it, please use the foll
 @misc{
 Fort2021CLIPadversarialstickers,
 title={Pixels still beat text: Attacking the OpenAI CLIP model with text patches and adversarial pixel perturbations},
-url={https://stanislavfort.github.io/2021/01/12/OpenAI_CLIP_stickers_and_adversarial_examples.html},
+url={https://stanislavfort.github.io/2021/03/05/OpenAI_CLIP_stickers_and_adversarial_examples.html},
 author={Stanislav Fort},
 year={2021},
 month={March}
