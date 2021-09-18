@@ -400,7 +400,7 @@ Deep Learning for Physical Sciences</a> workshop at <a href = "https://nips.cc/"
             </div>
               </td>
               <td width="75%" valign="top">
-		  <p><a href="https://arxiv.org/abs/1708.02735">
+		  <p><a href="https://arxiv.org/abs/1708.02735"></p>
         <papertitle>2. Gaussian Prototypical Networks for Few-Shot Learning on Omniglot</papertitle></a><br>
         <strong>Stanislav Fort</strong><br>
               </p><p></p>
