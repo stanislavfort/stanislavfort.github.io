@@ -336,14 +336,14 @@ for Deep Learning</a> workshop at ICML 2019 as a poster. I also delivered invite
             </div>
               </td>
               <td width="75%" valign="top">
-		  <p><a href = https://arxiv.org/abs/1807.02581>
+		  <p><a href = "https://arxiv.org/abs/1807.02581">
         <papertitle>5. The Goldilocks zone: Towards better understanding of neural network loss landscapes</papertitle></a><br>
         <strong>Stanislav Fort</strong>, Adam Scherlis<br>
               </p><p></p>
 	      <p> A connection between optimization on random low-dimensional hypersurfaces and local convexity in the neural network loss landscape.
         <p> Accepted for publication at <a href="https://aaai.org/Conferences/AAAI-19/">AAAI 2019</a> in Hawaii as an <strong>oral presentation</strong> and a poster.
-<p> A subset accepted at the <a href = https://sites.google.com/view/icml2018nonconvex/papers>
-Modern Trends in Nonconvex Optimization for Machine Learning</a> workshop at <a href = https://icml.cc/>ICML 2018</a> and <a href = http://www.baylearn.org>BayLearn 2018</a> as <i>The Goldilocks zone: Empirical exploration of the structure of the neural network loss landscapes</i> (link <a href = https://drive.google.com/file/d/1PLo0iKyuWOj9M60pdc39XaSGJTTJPkmo/view>here</a>). Accepted as an oral presentation at the <a href="https://sites.google.com/view/phys4ml">Theoretical Physics for Machine Learning</a> Aspen winter conference.
+<p> A subset accepted at the <a href = "https://sites.google.com/view/icml2018nonconvex/papers">
+Modern Trends in Nonconvex Optimization for Machine Learning</a> workshop at <a href = "https://icml.cc/">ICML 2018</a> and <a href = "http://www.baylearn.org">BayLearn 2018</a> as <i>The Goldilocks zone: Empirical exploration of the structure of the neural network loss landscapes</i> (link <a href = "https://drive.google.com/file/d/1PLo0iKyuWOj9M60pdc39XaSGJTTJPkmo/view">here</a>). Accepted as an oral presentation at the <a href="https://sites.google.com/view/phys4ml">Theoretical Physics for Machine Learning</a> Aspen winter conference.
               </p><p></p>
               <p></p>
               </td>
@@ -357,11 +357,11 @@ Modern Trends in Nonconvex Optimization for Machine Learning</a> workshop at <a 
             </div>
               </td>
               <td width="75%" valign="top">
-		  <p><a href = https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10699/106991J/The-ATHENA-WFI-science-products-module/10.1117/12.2312785.short?SSO=1>
+		  <p><a href = "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10699/106991J/The-ATHENA-WFI-science-products-module/10.1117/12.2312785.short?SSO=1">
         <papertitle>4. The ATHENA WFI science products module</papertitle></a><br>
        David N Burrows, Steven Allen, Marshall Bautz, Esra Bulbul, Julia Erdley, Abraham D Falcone, <strong>Stanislav Fort</strong>, Catherine E Grant, Sven Herrmann, Jamie Kennea, Robert Klar, Ralph Kraft, Adam Mantz, Eric D Miller, Paul Nulsen, Steve Persyn, Pragati Pradhan, Dan Wilkins<br>
               </p><p></p>
-	      <p> A paper on the proposed <a href=https://en.wikipedia.org/wiki/Advanced_Telescope_for_High_Energy_Astrophysics>Athena X-ray observatory</a>'s WFI science products module. My part involved exploring the use of AI techniques on board.
+	      <p> A paper on the proposed <a href="https://en.wikipedia.org/wiki/Advanced_Telescope_for_High_Energy_Astrophysics">Athena X-ray observatory</a>'s WFI science products module. My part involved exploring the use of AI techniques on board.
 <p> Published at the Proceedings Volume 10699, Space Telescopes and Instrumentation 2018: Ultraviolet to Gamma Ray.
               </p><p></p>
               <p></p>
@@ -378,13 +378,13 @@ Modern Trends in Nonconvex Optimization for Machine Learning</a> workshop at <a 
             </div>
               </td>
               <td width="75%" valign="top">
-		  <p><a href = https://arxiv.org/abs/1712.00523>
+		  <p><a href = "https://arxiv.org/abs/1712.00523">
         <papertitle>3. Towards understanding feedback from supermassive black holes using convolutional neural networks</papertitle></a><br>
         <strong>Stanislav Fort</strong><br>
               </p><p></p>
 	      <p> A novel approach to detection of X-ray cavities in clusters of galaxies using convolutional neural architectures.
-<p> Accepted at the <a href = https://dl4physicalsciences.github.io/>
-Deep Learning for Physical Sciences</a> workshop at <a href = https://nips.cc/>NIPS 2017</a>.
+<p> Accepted at the <a href = "https://dl4physicalsciences.github.io/">
+Deep Learning for Physical Sciences</a> workshop at <a href = "https://nips.cc/">NIPS 2017</a>.
               </p><p></p>
               <p></p>
               </td>
@@ -405,8 +405,8 @@ Deep Learning for Physical Sciences</a> workshop at <a href = https://nips.cc/>N
         <strong>Stanislav Fort</strong><br>
               </p><p></p>
 	      <p> An architecture capable of dealing with uncertainties for few-shot learning on the Omniglot dataset.
-<p> Accepted and presented at <a href = http://www.baylearn.org>BayLearn 2017</a>.<br> Accepted at the <a href = http://bayesiandeeplearning.org/>
-Bayesian Deep Learning</a> workshop at <a href = https://nips.cc/>NIPS 2017</a>.
+<p> Accepted and presented at <a href = "http://www.baylearn.org">BayLearn 2017</a>.<br> Accepted at the <a href = "http://bayesiandeeplearning.org/">
+Bayesian Deep Learning</a> workshop at <a href = "https://nips.cc/">NIPS 2017</a>.
 <p> Essential code available on <a href = "https://github.com/stanislavfort/gaussian-prototypical-networks">GitHub</a>.
               </p><p></p>
               <p></p>
