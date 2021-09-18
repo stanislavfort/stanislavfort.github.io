@@ -428,9 +428,7 @@ Bayesian Deep Learning</a> workshop at <a href = "https://nips.cc/">NIPS 2017</a
               <p> A pulsar detection in gamma-ray.
               </p><p></p>
               <p></p>
-              </td>
-            </tr>
-        <tr>
+
 
 
 </tbody>
