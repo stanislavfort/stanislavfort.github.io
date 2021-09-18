@@ -1,6 +1,7 @@
 ---
 title: Research
 ---
+I am interested in emergence, AI, and physics. My current focus is on 1) (empirical) theories of deep learning & deep learning understanding, and 2) applying deep learning methods to the physical sciences, especially astrophysics and quantum. I'm especially keen on neural network scaling & its benefits.
 
 <style type="text/css">
     /* Color scheme stolen from Sergey Karayev */
