@@ -79,6 +79,26 @@ kramdown:
   toc_levels: "1,2,3"
 
 
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-octicons
+  - jekyll-github-metadata
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  math_engine: katex
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+toc:
+  max_level: 1
+  item_prefix: toc-
+
+
 # Build settings
 #theme: minima
 #plugins:
