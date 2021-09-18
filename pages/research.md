@@ -5,10 +5,10 @@ title: Research
 I am interested in emergence, AI, and physics. My current focus is on 1) (empirical) theories of deep learning & deep learning understanding, and 2) applying deep learning methods to the physical sciences, especially astrophysics and quantum. I'm especially keen on neural network scaling & its benefits.
 
 
-[19. How many degrees of freedom do we need to train deep networks: a loss landscape perspective](https://arxiv.org/abs/2107.05802)
-Brett W. Larsen, **Stanislav Fort**, Nic Becker, Surya Ganguli<
+### [19. How many degrees of freedom do we need to train deep networks: a loss landscape perspective](https://arxiv.org/abs/2107.05802)
+Brett W. Larsen, **Stanislav Fort**, Nic Becker, Surya Ganguli
 
-<img src="/images/subspaces.png" alt="arxiv.org/abs/2107.05802" style="width:40%;float:left;margin:0em 0em 0em 3em;border-radius:1em 4em">
+<img src="/images/subspaces.png" alt="arxiv.org/abs/2107.05802" style="width:30%;float:left;margin:0em 0em 0em 3em">
 
 Deep neural networks are capable of training and generalizing well in many low-dimensional manifolds in their weights.  We explain this phenomenon by first examining the success probability of hitting a training loss sublevel set when training within a random subspace of a given training dimensionality using Gordon's escape theorem.
 
