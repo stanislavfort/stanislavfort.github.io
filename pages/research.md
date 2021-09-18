@@ -86,20 +86,17 @@ title: Research
         </td>
       </tr>
       </tbody></table>
-      <table cellspacing="0" cellpadding="20" width="100%" border="0" align="center">
 
-
-        <tbody>
-
-
-        <tr>
+<table cellspacing="0" cellpadding="20" width="100%" border="0" align="center">
+<tbody><tr>
 
 <td width="25%">
 
                           <div class="one">
-                              <img src="/images/subspaces.png"><p>
+                              <img src="/images/subspaces.png"><p></p>
                           </div>
                             </td>
+
                             <td width="75%" valign="top">
               		  <p><a href = "https://arxiv.org/abs/2107.05802">
                       <papertitle>19. How many degrees of freedom do we need to train deep networks: a loss landscape perspective</papertitle></a><br>
