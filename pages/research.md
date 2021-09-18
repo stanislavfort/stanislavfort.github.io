@@ -2,6 +2,79 @@
 title: Research
 ---
 
+  <style type="text/css">
+    /* Color scheme stolen from Sergey Karayev */
+    a {
+    color: #1772d0;
+    text-decoration:none;
+    }
+    a:focus, a:hover {
+    color: #f09228;
+    text-decoration:none;
+    }
+    body,td,th,tr,p,a {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px
+    }
+    strong {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    }
+    heading {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 22px;
+    }
+    papertitle {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700
+    }
+    name {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 32px;
+    }
+    .one
+    {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    }
+    .one img {
+	    display: block;
+	    width: 100%;
+	    height: auto;
+    }
+    .fun
+    {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    }
+    .fun img {
+	    display: block;
+	    width: auto;
+	    height: 100%;
+    }
+    .two
+    {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+    }
+    .fade {
+     transition: opacity .2s ease-in-out;
+     -moz-transition: opacity .2s ease-in-out;
+     -webkit-transition: opacity .2s ease-in-out;
+    }
+    span.highlight {
+        background-color: #ffffd0;
+    }
+  </style>
+
+
  <table cellspacing="0" cellpadding="20" width="100%" border="0" align="center">
       <tbody><tr>
 
@@ -24,7 +97,7 @@ title: Research
 <td width="25%">
 
                           <div class="one">
-                              <img src="subspaces.png"><p>
+                              <img src="/images/subspaces.png"><p>
                           </div>
                             </td>
                             <td width="75%" valign="top">
@@ -39,7 +112,7 @@ title: Research
 <td width="25%">
 
                     <div class="one">
-                        <img src="maha_ratio.jpg"><p>
+                        <img src="/images/maha_ratio.jpg"><p>
                     </div>
                       </td>
                       <td width="75%" valign="top">
@@ -56,7 +129,7 @@ Jie Ren, <strong>Stanislav Fort</strong>, Jeremiah Liu, Abhijit Guha Roy, Shreya
   <td width="25%">
 
                     <div class="one">
-                        <img src="ood_vit_plots.png"><img src="ood_clip.png"><p>
+                        <img src="/images/ood_vit_plots.png"><img src="/images/ood_clip.png"><p>
                     </div>
                       </td>
                       <td width="75%" valign="top">
@@ -74,7 +147,7 @@ Jie Ren, <strong>Stanislav Fort</strong>, Jeremiah Liu, Abhijit Guha Roy, Shreya
   <td width="25%">
 
                     <div class="one">
-                        <img src="augmult_cartoon.png"><img src="augmult_plot.png"><p>
+                        <img src="/images/augmult_cartoon.png"><img src="/images/augmult_plot.png"><p>
                     </div>
                       </td>
                       <td width="75%" valign="top">
@@ -89,7 +162,7 @@ Jie Ren, <strong>Stanislav Fort</strong>, Jeremiah Liu, Abhijit Guha Roy, Shreya
   <td width="25%">
 
                     <div class="one">
-                        <img src="linear_connectivity_single.jpeg"><p>
+                        <img src="/images/linear_connectivity_single.jpeg"><p>
                     </div>
                       </td>
                       <td width="75%" valign="top">
@@ -105,7 +178,7 @@ Jie Ren, <strong>Stanislav Fort</strong>, Jeremiah Liu, Abhijit Guha Roy, Shreya
 	<td width="25%">
 
                     <div class="one">
-                        <img src="athena2.jpg"><p>
+                        <img src="/images/athena2.jpg"><p>
                     </div>
                       </td>
                       <td width="75%" valign="top">
@@ -122,7 +195,7 @@ Jie Ren, <strong>Stanislav Fort</strong>, Jeremiah Liu, Abhijit Guha Roy, Shreya
         <td width="25%">
 
                     <div class="one">
-                        <img src="data-NTK.png"><p>
+                        <img src="/images/data-NTK.png"><p>
                     </div>
                       </td>
                       <td width="75%" valign="top">
@@ -139,7 +212,7 @@ Jie Ren, <strong>Stanislav Fort</strong>, Jeremiah Liu, Abhijit Guha Roy, Shreya
         <td width="25%">
 
                     <div class="one">
-                        <img src="MIMO.png"><p>
+                        <img src="/images/MIMO.png"><p>
                     </div>
                       </td>
                       <td width="75%" valign="top">
@@ -155,7 +228,7 @@ Jie Ren, <strong>Stanislav Fort</strong>, Jeremiah Liu, Abhijit Guha Roy, Shreya
        	<td width="25%">
 
                     <div class="one">
-                        <img src="break_even.png"><p>
+                        <img src="/images/break_even.png"><p>
                     </div>
                       </td>
                       <td width="75%" valign="top">
@@ -172,7 +245,7 @@ Jie Ren, <strong>Stanislav Fort</strong>, Jeremiah Liu, Abhijit Guha Roy, Shreya
         	<td width="25%">
 
                     <div class="one">
-                        <img src="two_modes.png"><p>
+                        <img src="/images/two_modes.png"><p>
                     </div>
                       </td>
                       <td width="75%" valign="top">
@@ -190,7 +263,7 @@ Jie Ren, <strong>Stanislav Fort</strong>, Jeremiah Liu, Abhijit Guha Roy, Shreya
 	<td width="25%">
 
             <div class="one">
-                <img src="gradient_alignment.png"><p>
+                <img src="/images/gradient_alignment.png"><p>
             </div>
               </td>
               <td width="75%" valign="top">
@@ -207,7 +280,7 @@ Jie Ren, <strong>Stanislav Fort</strong>, Jeremiah Liu, Abhijit Guha Roy, Shreya
           <td width="25%">
 
             <div class="one">
-                <img src="toy_model_3d_RGB_cut_with_path_2.png"><p>
+                <img src="/images/toy_model_3d_RGB_cut_with_path_2.png"><p>
             </div>
               </td>
               <td width="75%" valign="top">
@@ -229,7 +302,7 @@ for Deep Learning</a> workshop at ICML 2019 as a poster. I also delivered invite
           <td width="25%">
 
             <div class="one">
-                <img src="stiffness_diagram.png"><p>
+                <img src="/images/stiffness_diagram.png"><p>
             </div>
               </td>
               <td width="75%" valign="top">
@@ -245,8 +318,8 @@ for Deep Learning</a> workshop at ICML 2019 as a poster. I also delivered invite
           <td width="25%">
 
             <div class="one">
-                <img src="na-qst_rnn.png"><p>
-		<img src="na-qst_unit_cell.png">
+                <img src="/images/na-qst_rnn.png"><p>
+		<img src="/images/na-qst_unit_cell.png">
             </div>
               </td>
               <td width="75%" valign="top">
@@ -266,7 +339,7 @@ for Deep Learning</a> workshop at ICML 2019 as a poster. I also delivered invite
           <td width="25%">
 
             <div class="one">
-                <img src="goldilocks.png">
+                <img src="/images/goldilocks.png">
             </div>
               </td>
               <td width="75%" valign="top">
@@ -287,7 +360,7 @@ Modern Trends in Nonconvex Optimization for Machine Learning</a> workshop at <a 
           <td width="25%">
 
             <div class="one">
-                <img src="athena.jpg">
+                <img src="/images/athena.jpg">
             </div>
               </td>
               <td width="75%" valign="top">
@@ -308,7 +381,7 @@ Modern Trends in Nonconvex Optimization for Machine Learning</a> workshop at <a 
           <td width="25%">
 
             <div class="one">
-                <img src="cavities.png">
+                <img src="/images/cavities.png">
             </div>
               </td>
               <td width="75%" valign="top">
@@ -330,7 +403,7 @@ Deep Learning for Physical Sciences</a> workshop at <a href = https://nips.cc/>N
           <td width="25%">
 
             <div class="one">
-                <img src="gauss1.png">
+                <img src="/images/gauss1.png">
             </div>
               </td>
               <td width="75%" valign="top">
@@ -351,7 +424,7 @@ Bayesian Deep Learning</a> workshop at <a href = https://nips.cc/>NIPS 2017</a>.
           <td width="25%">
 
             <div class="one">
-                <img src="pulsar.png">
+                <img src="/images/pulsar.png">
             </div>
               </td>
               <td width="75%" valign="top">
@@ -408,7 +481,7 @@ Bayesian Deep Learning</a> workshop at <a href = https://nips.cc/>NIPS 2017</a>.
 
       <div class="fun">
           <a href = "domecek.gif">
-          <img src="domecek.gif" alt="Barn/envelope withtout lifting pen">
+          <img src="/images/domecek.gif" alt="Barn/envelope withtout lifting pen">
         </a>
       </div>
         </td>
