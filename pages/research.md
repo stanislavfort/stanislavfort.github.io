@@ -410,6 +410,8 @@ Bayesian Deep Learning</a> workshop at <a href = "https://nips.cc/">NIPS 2017</a
 <p> Essential code available on <a href = "https://github.com/stanislavfort/gaussian-prototypical-networks">GitHub</a>.
               </p><p></p>
               <p></p>
+              </td>
+            </tr>
 
 	<tr>
           <td width="25%">
@@ -426,7 +428,8 @@ Bayesian Deep Learning</a> workshop at <a href = "https://nips.cc/">NIPS 2017</a
               <p> A pulsar detection in gamma-ray.
               </p><p></p>
               <p></p>
-
+              </td>
+            </tr>
 
 
 </tbody>
