@@ -10,7 +10,7 @@ I am interested in emergence, AI, and physics. My current focus is on 1) (empiri
     }
     papertitle {
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700
     }
     .one
