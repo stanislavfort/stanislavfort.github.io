@@ -25,7 +25,7 @@ Let us imagine a two-dimensional Cartesian coordinate system, with a very massiv
 ### 2.1 Circular orbit
 Let us call $F(r)$ the attractive force pulling the small test body $m$ to the large body $M$. We will assume throughout this post that its magnitude depends only on the distance from the origin (and therefore the central body) $r$. Furthermore, its vector always points *towards* the origin, i.e. in the $-\hat{r}$ direction. However, since we will be primarily dealing with $r$ and its changes, $F(r)$ will have a negative sign when used as a scalar, indicating that it pulls the small body towards smaller values of $r$.  
 
-<img src="diagram1.png" ALIGN="right" height="30%" width="30%">
+<img src="/images/diagram1.png" ALIGN="right" height="30%" width="30%">
 
 For any attractive force $F(r)$ and for any radius of our choosing $R_0$, there will always exist an angular velocity $\Omega$ (specifying the angle per unit time swept by the vector $\vec{r}$) of a circular orbit at that radius. This is due to the fact that the [centrifugal force](https://en.wikipedia.org/wiki/Centrifugal_force) pointing away from the origin in the direction $\hat{r}$ will, for some value of $\Omega_0$, exactly balance the attractive force $F(R_0)$.
 
@@ -67,7 +67,7 @@ Imagine a nice, circular trajectory of radius $R_0$ orbiting with the appropriat
 
 Imagine giving the small body of mass $m$ **a little kick** to a slightly higher radius. Speaking exactly, let the radius now be $R = R_0 + \varepsilon$. Let's assume that the radius perturbation $\varepsilon$ is *small* and let's also assume that the angular momentum $L$ of the trajectory remains unchanged by this perturbation, i.e. it stays at the value of $L = \Omega_0 R_0^2 m$. We are keeping the angular momentum the same in order to able to compare the original circular orbit to the new, perturbed orbit. You can find a [more detailed argument]("#Lconstant") in the last section.
 
-<img src="diagram2.png" height="30%" width="30%" ALIGN="right">
+<img src="/images/diagram2.png" height="30%" width="30%" ALIGN="right">
 
 What is now the force acting on the perturbed test mass? The attractive force changed from $F(R_0)$ to $F(R_0 + \varepsilon)$. The centrifugal force, on the other hand, changed *both* as a consequence of the radius changing and the velocity changing due to the angular momentum $L$ being kept constant.
 

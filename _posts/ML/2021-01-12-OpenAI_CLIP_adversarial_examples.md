@@ -24,7 +24,7 @@ I hope the code could be helpful for others who might want to play with the mode
 
 To see if there exist adversarial examples for CLIP, I first needed to specify a classification task. I started with CIFAR-10, which contains 10 classes: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck. I then used the pretrained CLIP to classify each test set image to one of those 10 classes, matching the image encodings to the text encodings of the words "airplane", "automobile", "deer" etc. Even completely out of the box, I was already getting 87.37% test accuracy, which is decent and just a bit worse what I could get for a ResNet20v1 trained without a batch norm.
 
-<img src="openai_clip_adversary_example_jet.png" ALIGN="right" height="100%" width="100%">
+<img src="/images/openai_clip_adversary_example_jet.png" ALIGN="right" height="100%" width="100%">
 
 For a set of candidate class text descriptions (such as "cat" and "dog") $s_1, s_2,\dots, s_C$, where $C$ is the number of candidate classes, we encode each string $s_i$ into a text encoding $T_i = \mathrm{encoder}(s_i)$. For an image $X$, we get an encoding $I$ and the classification logits are then $z_i = \mathrm{distance}(I,T_i)$. To get probabilities out, we can apply $\mathrm{softmax}$ on top of the logit vector $\vec{z}$.
 
@@ -42,7 +42,7 @@ I chose a set of class labels A, which could be "cat", "dog", "car" and so on. I
 What if I used a different set of class names B, which would be semantically similar to a human (for example "cat" would go to "kitty", and "automobile" to "car"). Would the same pair of images $(X,X^{\prime})$ developed on the labels A work as an adversarial pair on the labels B? **The answer is, yes!**
 
 Here is an example of an "airplane" adversarially modified to look like a "frog", which at the same time reads as a "toad" from among my modified class labels.
-<img src="openai_clip_semantically_universal_adversaries.png" ALIGN="right" height="100%" width="100%">
+<img src="/images/openai_clip_semantically_universal_adversaries.png" ALIGN="right" height="100%" width="100%">
 
 To make sure this point is clear, imagine the following: There is an image $X$ labeled a "cat" from among labels A = ("cat", "dog", "car", ...).  I develop an adversarial example $X^\prime$ that is labeled a "dog". From among an alternative set of labels B = ("kitty", "hound", "automobile") $X$ will now be labeled a "kitty" and its adversary $X^{\prime}$ would again be labeled a "hound". This shows that the adversarial examples **actually look like what they were optimized towards** even to a system as different from the usual classification paradigm as CLIP.
 
@@ -50,7 +50,7 @@ To make sure this point is clear, imagine the following: There is an image $X$ l
 To see how far this goes, I wanted to verify whether replacing "cat" with e.g. "a domesticated feline creature that eats mice and meows" and "dog" with e.g. "a four legged creature that barks" would still preserve the adversarial nature of an image developed on the original set of labels. **Even for very vague and descriptive class names the adversarial examples still generalize (albeit to a much lower extent).** To me this supports the hypothesis that the adversarial example actually looks like the broad concept of e.g. a dog to the classifier, rather than being a brittle quirk of the model.
 
 Here's an example of such a generalization that you generate in my [Google Colab](https://github.com/stanislavfort/OpenAI_CLIP_adversarial_examples/blob/main/OpenAI_CLIP_adversarial_images_playground.ipynb). The image of an "airplane" is adversarially modified to read as a "deer". Among the more descriptive labels, the original image still reads as a "vehicle that flies in the air" while the adversary has generalized to the lengthy description of a deer as "animal that lives in the forest and has antlers".
-<img src="openai_clip_adversary_vague_names.png" ALIGN="right" height="100%" width="100%">
+<img src="/images/openai_clip_adversary_vague_names.png" ALIGN="right" height="100%" width="100%">
 
 
 ## 5. Conclusion
