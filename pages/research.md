@@ -426,6 +426,3 @@ Bayesian Deep Learning</a> workshop at <a href = "https://nips.cc/">NIPS 2017</a
               </td>
             </tr>
 
-
-</tbody>
-</table>
