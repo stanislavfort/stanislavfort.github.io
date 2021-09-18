@@ -1,3 +1,8 @@
+---
+title: "Adversarial examples for the OpenAI CLIP in its zero-shot classification regime and their semantic generalization"
+---
+It turns out that adversarial examples are very easy to find (<100 gradient steps typically) for the [OpenAI CLIP](https://openai.com/blog/clip/) model in the zero-shot classification regime. Those adversarial examples generalize to semantically related text descriptions of the adversarial class.
+
 # Adversarial examples for the OpenAI CLIP in its zero-shot classification regime and their semantic generalization
 
 ## Stanislav Fort ([Twitter](https://twitter.com/stanislavfort) and [GitHub](https://github.com/stanislavfort))

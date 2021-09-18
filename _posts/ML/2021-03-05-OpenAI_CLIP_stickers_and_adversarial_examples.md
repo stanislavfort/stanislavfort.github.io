@@ -1,3 +1,8 @@
+---
+title: "Pixels still beat text: Attacking the OpenAI CLIP model with text patches and adversarial pixel perturbations"
+---
+Adversarial examples are very easy to find for the [OpenAI CLIP model](https://openai.com/blog/clip/) in its zero-shot classification regime, as I demonstrated in [my last post](https://stanislavfort.github.io/2021/01/12/OpenAI_CLIP_adversarial_examples.html). Putting a sticker literally spelling **B I R D** on a picture of a dog will convince the classifier it is actually looking at a *bird*. This decision, however, can again be easily flipped to any other class (here *frog* in particular) by a targeted adversarial perturbation to the image pixels.
+
 # Pixels still beat text: Attacking the OpenAI CLIP model with text patches and adversarial pixel perturbations
 
 ## Stanislav Fort ([Twitter](https://twitter.com/stanislavfort) and [GitHub](https://github.com/stanislavfort))
