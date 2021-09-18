@@ -290,7 +290,6 @@ for Deep Learning</a> workshop at ICML 2019 as a poster. I also delivered invite
 
               </td>
             </tr>
-<tr>
 	<tr>
           <td width="25%">
 
@@ -392,7 +391,6 @@ Deep Learning for Physical Sciences</a> workshop at <a href = "https://nips.cc/"
 
 	<tr>
 
-	<tr>
           <td width="25%">
 
             <div class="one">
@@ -400,7 +398,7 @@ Deep Learning for Physical Sciences</a> workshop at <a href = "https://nips.cc/"
             </div>
               </td>
               <td width="75%" valign="top">
-		  <p><a href="https://arxiv.org/abs/1708.02735"></p>
+		  <p><a href="https://arxiv.org/abs/1708.02735">
         <papertitle>2. Gaussian Prototypical Networks for Few-Shot Learning on Omniglot</papertitle></a><br>
         <strong>Stanislav Fort</strong><br>
               </p><p></p>
