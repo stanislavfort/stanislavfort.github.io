@@ -179,7 +179,7 @@ Jie Ren, <strong>Stanislav Fort</strong>, Jeremiah Liu, Abhijit Guha Roy, Shreya
                 <papertitle>14. Identifying charged particle background events in X-ray imaging detectors with novel machine learning algorithms</papertitle></a><br>
                 D. R. Wilkins, S. W. Allen, E. D. Miller, M. Bautz, T. Chattopadhyay, <strong>S. Fort</strong>, C. E. Grant, S. Herrmann, R. Kraft, R. G. Morris, P. Nulsen<br>
                       </p><p></p>
-        	      <p>Using machine learning algorithms for identification of background (noise) charge particles in X-ray imaging detectors, with a particular emphasis on the proposed <a href="https://en.wikipedia.org/wiki/Advanced_Telescope_for_High_Energy_Astrophysics">Athena X-ray observatory</a>'s WFI science products module.
+        	      <p>Using machine learning algorithms for identification of background (noise) charge particles in X-ray imaging detectors, with a particular emphasis on the proposed <a href="https://en.wikipedia.org/wiki/Advanced_Telescope_for_High_Energy_Astrophysics">Athena X-ray observatory</a>'s WFI science products module.</p>
                 <p>Accepted for publication at Proceedings of the SPIE, Astronomical Telescopes and Instrumentation, Space Telescopes and Instrumentation 2020: Ultraviolet to Gamma Ray.</p>
 
                       </td>
@@ -197,7 +197,7 @@ Jie Ren, <strong>Stanislav Fort</strong>, Jeremiah Liu, Abhijit Guha Roy, Shreya
                 <strong>Stanislav Fort</strong>, Gintare Karolina Dziugaite, Mansheej Paul, Sepideh Kharaghani, Daniel M. Roy, Surya Ganguli<br>
                       </p><p></p>
         	      <p>We study the relationship between the training dynamics of nonlinear deep networks, the geometry of the loss landscape, and the time evolution of a data-dependent NTK. We do so through a large-scale phenomenological analysis of training, synthesizing diverse measures characterizing loss landscape geometry and NTK dynamics.</p>
-                <p>Accepted for publication at <a href="https://nips.cc/Conferences/2020/">NeurIPS 2020</a> in Vancouver as a <b>poster</b>.
+                <p>Accepted for publication at <a href="https://nips.cc/Conferences/2020/">NeurIPS 2020</a> in Vancouver as a <b>poster</b>.</p>
 
                       </td>
                     </tr>
@@ -230,7 +230,7 @@ Jie Ren, <strong>Stanislav Fort</strong>, Jeremiah Liu, Abhijit Guha Roy, Shreya
                 Stanislaw Jastrzebski, Maciej Szymczak, <strong>Stanislav Fort</strong>, Devansh Arpit, Jacek Tabor, Kyunghyun Cho, Krzysztof Geras<br>
                       </p><p></p>
         	      <p>In the early phase of training of deep neural networks there exists a "break-even point" which determines properties of the entire optimization trajectory.</p>
-                <p>Accepted as a <b>spotlight talk</b> at the <a href="http://bayesiandeeplearning.org/">International Conference on Learning Representations 2020</a> (ICLR) in Addis Ababa, Ethiopia.
+                <p>Accepted as a <b>spotlight talk</b> at the <a href="http://bayesiandeeplearning.org/">International Conference on Learning Representations 2020</a> (ICLR) in Addis Ababa, Ethiopia.</p>
                       </td>
                     </tr>
 
@@ -247,7 +247,7 @@ Jie Ren, <strong>Stanislav Fort</strong>, Jeremiah Liu, Abhijit Guha Roy, Shreya
                 <strong>Stanislav Fort</strong>, Huiyi Hu, Balaji Lakshminarayanan<br>
                       </p><p></p>
         	      <p>Exploring the consequences of the neural network loss landscape structure for ensembling, Bayesian methods, and calibration.</p>
-                <p>Accepted as a <b>contributed talk</b> at <a href="http://bayesiandeeplearning.org/">Bayesian Deep Learning</a> workshop at <a href="https://nips.cc/Conferences/2019/">NeurIPS 2019</a> in Vancouver.
+                <p>Accepted as a <b>contributed talk</b> at <a href="http://bayesiandeeplearning.org/">Bayesian Deep Learning</a> workshop at <a href="https://nips.cc/Conferences/2019/">NeurIPS 2019</a> in Vancouver.</p>
                       </td>
                     </tr>
 
@@ -283,7 +283,7 @@ Jie Ren, <strong>Stanislav Fort</strong>, Jeremiah Liu, Abhijit Guha Roy, Shreya
               </p><p></p>
 	      <p> Building a unified phenomenological model of the low-loss manifold in neural network loss landscapes that incorporates 1) mode connectivity, 2) the surprising ease of optimizing on low-dimensional cuts through the weight space, and 3) the existence of <i>long directions</i> in the loss landscape into a single model. Using this model, we made new predictions about the loss landscape and verified them empirically.</p>
 <p>
-Accepted for publication at <a href="https://nips.cc/Conferences/2019/">NeurIPS 2019</a> in Vancouver as a <b>poster</b>.
+Accepted for publication at <a href="https://nips.cc/Conferences/2019/">NeurIPS 2019</a> in Vancouver as a <b>poster</b>.</p>
           <p> A subset accepted at the <a href = "https://sites.google.com/view/icml2019-generalization/home">
           Understanding and Improving Generalization in Deep Learning</a> workshop at ICML 2019 as a <b>spotlight talk</b> and a poster, and at the <a href = "https://sites.google.com/view/icml2019phys4dl">Theoretical Physics
 for Deep Learning</a> workshop at ICML 2019 as a poster. I also delivered invited talks at Uber AI Labs and Google Brain.</p>
@@ -340,7 +340,7 @@ for Deep Learning</a> workshop at ICML 2019 as a poster. I also delivered invite
         <papertitle>5. The Goldilocks zone: Towards better understanding of neural network loss landscapes</papertitle></a><br>
         <strong>Stanislav Fort</strong>, Adam Scherlis<br>
               </p><p></p>
-	      <p> A connection between optimization on random low-dimensional hypersurfaces and local convexity in the neural network loss landscape.
+	      <p> A connection between optimization on random low-dimensional hypersurfaces and local convexity in the neural network loss landscape.</p>
         <p> Accepted for publication at <a href="https://aaai.org/Conferences/AAAI-19/">AAAI 2019</a> in Hawaii as an <strong>oral presentation</strong> and a poster.</p>
 <p> A subset accepted at the <a href = "https://sites.google.com/view/icml2018nonconvex/papers">
 Modern Trends in Nonconvex Optimization for Machine Learning</a> workshop at <a href = "https://icml.cc/">ICML 2018</a> and <a href = "http://www.baylearn.org">BayLearn 2018</a> as <i>The Goldilocks zone: Empirical exploration of the structure of the neural network loss landscapes</i> (link <a href = "https://drive.google.com/file/d/1PLo0iKyuWOj9M60pdc39XaSGJTTJPkmo/view">here</a>). Accepted as an oral presentation at the <a href="https://sites.google.com/view/phys4ml">Theoretical Physics for Machine Learning</a> Aspen winter conference.
