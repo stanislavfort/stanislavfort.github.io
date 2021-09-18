@@ -1,0 +1,59 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            <!--{%- if site.author -%}
+              {{ site.author | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+              {%- endif -%}-->
+            </li>
+            {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        {%- include social.html -%}
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <!--
+        <form method="get" id="ddgSearch" action="https://duckduckgo.com/">
+            <input type="hidden" name="sites" value="adamprada.net"/>
+            <input type="hidden" name="k7" value="#ffffff"/>
+            <input type="hidden" name="k8" value="#222222"/>
+            <input type="hidden" name="k9" value="#00278e"/>
+            <input type="hidden" name="kx" value="#20692b"/>
+            <input type="hidden" name="kj" value="#fafafa"/>
+            <input type="hidden" name="kt" value="p"/>
+            <input type="text" name="q" placeholder="Search…" aria-label="Search
+            adamprada.net on DuckDuckGo" size="10"/>
+            <button type="submit">Search</button>
+        </form>
+        <br />
+        -->
+        <p>{{- site.description | escape -}}</p>
+      </div>
+    </div>
+    <div class="footer-col-wrapper">
+        <p>
+        The content on this website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+        </p>
+        <p>
+        This website is built using <a href="https://jekyllrb.com/">jekyll</a> and based on theme
+        <a href="https://github.com/jekyll/minima">minima</a>, both of
+        which are licensed under the <a rel="license" href="/MIT_LICENSE.txt">MIT license</a>.
+        </p>
+    </div>
+  </div>
+
+</footer>
