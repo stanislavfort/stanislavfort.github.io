@@ -4,6 +4,80 @@ title: Research
 
 I am interested in emergence, AI, and physics. My current focus is on 1) (empirical) theories of deep learning & deep learning understanding, and 2) applying deep learning methods to the physical sciences, especially astrophysics and quantum. I'm especially keen on neural network scaling & its benefits.
 
+<style type="text/css">
+    /* Color scheme stolen from Sergey Karayev */
+    a {
+    color: #1772d0;
+    text-decoration:none;
+    }
+    a:focus, a:hover {
+    color: #f09228;
+    text-decoration:none;
+    }
+    body,td,th,tr,p,a {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px
+    }
+    strong {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    }
+    heading {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 22px;
+    }
+    papertitle {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700
+    }
+    name {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 32px;
+    }
+    .one
+    {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    }
+    .one img {
+	    display: block;
+	    width: 100%;
+	    height: auto;
+    }
+    .fun
+    {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    }
+    .fun img {
+	    display: block;
+	    width: auto;
+	    height: 100%;
+    }
+    .two
+    {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+    }
+    .fade {
+     transition: opacity .2s ease-in-out;
+     -moz-transition: opacity .2s ease-in-out;
+     -webkit-transition: opacity .2s ease-in-out;
+    }
+    span.highlight {
+        background-color: #ffffd0;
+    }
+  </style>
+
+<table>
+
 <tr>
 <td width="25%">
 <img src="/images/subspaces.png" alt="arxiv.org/abs/2107.05802" style="width:30%;float:left;margin:0em 0em 0em 3em">
@@ -30,3 +104,5 @@ Jie Ren, **Stanislav Fort**, Jeremiah Liu, Abhijit Guha Roy, Shreyas Padhy, Bala
 We analyze the failure modes of the Mahalanobis distance method for near-OOD detection and propose a simple fix called relative Mahalanobis distance (RMD) which improves performance and is more robust to hyperparameter choice.
 </td>
 </tr>
+
+</table>
