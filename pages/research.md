@@ -12,3 +12,11 @@ Brett W. Larsen, **Stanislav Fort**, Nic Becker, Surya Ganguli
 
 Deep neural networks are capable of training and generalizing well in many low-dimensional manifolds in their weights.  We explain this phenomenon by first examining the success probability of hitting a training loss sublevel set when training within a random subspace of a given training dimensionality using Gordon's escape theorem.
 
+
+### [18. A Simple Fix to Mahalanobis Distance for Improving Near-OOD Detection](https://arxiv.org/abs/2106.09022)
+Jie Ren, **Stanislav Fort**, Jeremiah Liu, Abhijit Guha Roy, Shreyas Padhy, Balaji Lakshminarayanan
+
+<img src="/images/maha_ratio.jpg" alt="arxiv.org/abs/2107.05802" style="width:30%;float:left;margin:0em 0em 0em 3em">
+
+We analyze the failure modes of the Mahalanobis distance method for near-OOD detection and propose a simple fix called relative Mahalanobis distance (RMD) which improves performance and is more robust to hyperparameter choice.
+
