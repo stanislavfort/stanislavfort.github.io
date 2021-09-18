@@ -263,9 +263,9 @@ To be more precise, any orbit will be characterized by its total mechanical ener
 As you might have realized while reading our derivation, we never explicitly dealt with the fact that on top of the radial perturbation $\varepsilon(t)$, there will also be an angular perturbation $\theta(t)$. While the radial perturbation shifts the radius away from the circular orbit radius to $R(t) = R_0 + \varepsilon(t)$, the angular perturbation would add a small offset to the steady rotation of the test body around the central body as $\varphi(t) = \Omega_0 t + \theta(t)$. Why was it OK to ignore the angular perturbation?
 
 The angular velocity at radius $R$ is $\Omega(R) = \Omega_0 \frac{R_0^2}{R^2}$ due to the conservation of angular momentum (also called the [second Kepler's law](https://en.wikipedia.org/wiki/Kepler%27s_laws_of_planetary_motion#Second_law_of_Kepler)). The rate of change of $\varphi(t)$ with time is $\Omega_0 + \dot{\theta}$, where $\Omega_0$ is the steady march of the orbit around the central body, and $\dot{\theta}$ is the additional angular velocity from the time change of the angular perturbation. The total angular velocity is $\Omega$, and therefore
-[%
+$$
 \dot{\theta}(t) = \Omega_0 \left ( \frac{R_0^2}{(R_0 + \varepsilon(t))^2} - 1 \right ) \, .
-%]
+$$
 So far this was *exact*, i.e. no small parameter expansions were used. If we use the mathematical trick and assume $|\varepsilon| / R_0 \ll 1$ (as we did throughout this whole article), we get $\dot{\theta}(t) \approx -2 \frac{\varepsilon(t)}{R_0} \Omega_0$.
 
 Now to the conceptual step. If $\varepsilon(t)$ behaves as a harmonic oscillator with frequency $\omega$ and mean value $\left < \varepsilon(t) \right >_{t} = 0$, so will the equivalent $\theta(t)$ that is directly related to it. For a closed orbit, $\varepsilon(t) = \varepsilon(t+T)$, where $T$ is the time for the full orbit, i.e. the radius is exactly what it was an orbit ago. This implies $\theta(t) = \theta(t+T)$, however, we would need to be able to integrate $\sin$ and $\cos$ to show it explicitly. Therefore after a full orbit, both the radius perturbation as well as the angular perturbation are what they were, provided that this held for the radius perturbation alone. As a direct consequence, our previous conclusions about closure hold.
