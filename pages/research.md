@@ -77,6 +77,8 @@ I am interested in emergence, AI, and physics. My current focus is on 1) (empiri
   </style>
 </head>
 
+<body>
+
 <table cellspacing="0" cellpadding="20" width="100%" border="0" align="center">
 
 
@@ -432,3 +434,5 @@ Bayesian Deep Learning</a> workshop at <a href = "https://nips.cc/">NIPS 2017</a
 
 </tbody>
 </table>
+
+</body>
