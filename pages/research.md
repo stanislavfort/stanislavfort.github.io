@@ -7,11 +7,10 @@ I am interested in emergence, AI, and physics. My current focus is on 1) (empiri
     /* Color scheme stolen from Sergey Karayev */
     strong {
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 14px;
     }
     papertitle {
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 700
     }
     .one

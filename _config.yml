@@ -78,13 +78,6 @@ defaults:
 kramdown:
   toc_levels: "1,2,3"
 
-kramdown:
-  math_engine: katex
-  input: GFM
-  auto_ids: true
-  hard_wrap: false
-  syntax_highlighter: rouge
-
 
 # Build settings
 #theme: minima
