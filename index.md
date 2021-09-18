@@ -27,7 +27,7 @@ On top of my research, I work on a number of side projects in mathematics, physi
 
 
 
-<p align="center">
+<p align=center>
 
 <a href="https://twitter.com/stanislavfort">Twitter</a> &nbsp;/&nbsp;
 <a href="https://scholar.google.com/citations?user=eu2Kzn0AAAAJ&hl=en">Google Scholar</a>&nbsp;/&nbsp;
