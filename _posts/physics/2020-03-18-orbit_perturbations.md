@@ -388,7 +388,6 @@ $$
 \end{equation}
 $$
 </div>
-
 So far this was *exact*, i.e. no small parameter expansions were used. If we use the mathematical trick and assume $|\varepsilon| / R_0 \ll 1$ (as we did throughout this whole article), we get $\dot{\theta}(t) \approx -2 \frac{\varepsilon(t)}{R_0} \Omega_0$.
 
 Now to the conceptual step. If $\varepsilon(t)$ behaves as a harmonic oscillator with frequency $\omega$ and mean value $\left < \varepsilon(t) \right >_{t} = 0$, so will the equivalent $\theta(t)$ that is directly related to it. For a closed orbit, $\varepsilon(t) = \varepsilon(t+T)$, where $T$ is the time for the full orbit, i.e. the radius is exactly what it was an orbit ago. This implies $\theta(t) = \theta(t+T)$, however, we would need to be able to integrate $\sin$ and $\cos$ to show it explicitly. Therefore after a full orbit, both the radius perturbation as well as the angular perturbation are what they were, provided that this held for the radius perturbation alone. As a direct consequence, our previous conclusions about closure hold.
