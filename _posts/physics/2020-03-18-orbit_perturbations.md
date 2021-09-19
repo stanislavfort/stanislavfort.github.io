@@ -164,7 +164,7 @@ For the negative values of $\alpha$, the only such value is $\alpha = -2$, for w
 
 Conversely, for $\alpha < -3$, the attractive force will be falling off too quickly with radius $R$, in fact faster than the centrifugal force. Any small perturbation $\varepsilon$ to the circular trajectory will get amplified and lead to an instability. This suggests that for force laws with $\alpha < -3$, circular trajectories will be unstable.
 
-![Simulations of circular and perturbed orbits](orbits_together.png "Simulations of circular and perturbed orbits for different values of alpha")
+![Simulations of circular and perturbed orbits](/images/orbits_together.png "Simulations of circular and perturbed orbits for different values of alpha")
 
 ## 6. Slight modification of Newton's gravity <a name="modification"></a>
 From astronomical observations, we have known for a long time that orbits of planets are not *exactly* closed. They precess with time. The bulk of this precession can be explained by the influence of other planets, however, there is [a part](https://en.wikipedia.org/wiki/Tests_of_general_relativity#Perihelion_precession_of_Mercury) that cannot be accounted for within Newton's gravitational law $F = - GMm/r^2$.
