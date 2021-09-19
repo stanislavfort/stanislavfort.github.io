@@ -5,7 +5,7 @@ layout: page
 #title: About
 ---
 
-<img src="/images/headcircle3_smaller.jpg" alt="Stanislav Fort" style="width:40%;float:right;margin:0em 0em 0em 3em;border-radius:1em 4em">
+<img src="/images/hlava4.jpg" alt="Stanislav Fort" style="width:40%;float:right;margin:0em 0em 0em 3em;border-radius:1em 4em">
 
 I am currently a PhD student at <a href="http://www.stanford.edu/">Stanford University</a> with <a href="https://ganguli-gang.stanford.edu/surya.html">Prof Surya Ganguli</a> at the <a href = "https://ganguli-gang.stanford.edu/">Neural Dynamics and Computation Lab</a> and an <a href="https://www.openphilanthropy.org/focus/global-catastrophic-risks/potential-risks-advanced-artificial-intelligence/open-phil-ai-fellowship-2020-class">OpenPhil AI Fellow</a>. Before that, I was a <a href="https://ai.google/research/join-us/ai-residency/">Google AI Resident</a> working on understanding deep learning, and a Research Scientist Intern at <a href="https://deepmind.com/">DeepMind</a> working on scaling theoretical insights up.
 
