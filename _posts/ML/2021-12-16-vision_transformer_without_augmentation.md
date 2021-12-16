@@ -24,7 +24,7 @@ base_lr = 0.03
 
 | Finetuning on CIFAR-10                                       | Finetuning on CIFAR-100                                      |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="vit_finetune_cifar10.png" ALIGN="center" height="100%" width="100%"> | <img src="vit_finetune_cifar100.png" ALIGN="center" height="100%" width="100%"> |
+| <img src="/images/vit_finetune_cifar10.png" ALIGN="center" height="100%" width="100%"> | <img src="/images/vit_finetune_cifar100.png" ALIGN="center" height="100%" width="100%"> |
 
 **Conclusion:** For quick finetuning of the Vision Transformer on CIFAR-10 and CIFAR-100, not using training set augmentations will likely save you training time and compute. This is speculatively due to the strong prior imparted by the massive pretraining and rapid few-shot generalization of the Vision Transformer.
 
