@@ -1,3 +1,4 @@
+---
 title: "Vision Transformer finetuned without augmentation"
 ---
 A [Vision Transformer](https://arxiv.org/abs/2010.11929) (ViT) pretrained on ImageNet21k finetunes significantly faster **without training set augmentation** for CIFAR-10 and CIFAR-100. Despite this, the official  [GitHub repository](https://github.com/google-research/vision_transformer)  [ViT finetuning Colab](https://colab.research.google.com/github/google-research/vision_transformer/blob/master/vit_jax.ipynb) uses augmentation by default. It might be worth turning it off for your experiments to speed things up and save compute.
