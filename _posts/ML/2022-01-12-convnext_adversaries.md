@@ -5,5 +5,11 @@ The [A ConvNet for the 2020s](https://arxiv.org/abs/2201.03545) paper from Faceb
 
 <img src="/images/convnext_example_figure.png" ALIGN="center" height="100%" width="100%">
 
+
+
+Writing the Colab was made particularly fast by the https://github.com/leondgarse/keras_cv_attention_models repository that allows for an easy loading of the pretrained ConvNeXt model.
+
+
+
 **Stanislav Fort** ([Twitter](https://twitter.com/stanislavfort), [Scholar](https://scholar.google.cz/citations?user=eu2Kzn0AAAAJ&hl=en) and [GitHub](https://github.com/stanislavfort))
 
