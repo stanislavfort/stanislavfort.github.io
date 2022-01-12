@@ -7,7 +7,7 @@ The [A ConvNet for the 2020s](https://arxiv.org/abs/2201.03545) paper from Faceb
 
 
 
-Writing the Colab was made particularly fast by the https://github.com/leondgarse/keras_cv_attention_models repository that allows for an easy loading of the pretrained ConvNeXt model.
+Writing the Colab was made particularly fast by the [Keras CV Attention Models repository](https://github.com/leondgarse/keras_cv_attention_models) that allows for an easy loading of the pretrained ConvNeXt model.
 
 
 
