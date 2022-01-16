@@ -8,7 +8,7 @@ Make a square, split each side into two halves, producing four cells. Put a circ
 
 **Stanislav Fort** ([Twitter](https://twitter.com/stanislavfort), [Scholar](https://scholar.google.cz/citations?user=eu2Kzn0AAAAJ&hl=en) and [GitHub](https://github.com/stanislavfort))
 
-<img src="images/cube_results.png" ALIGN="right" height="100%" width="100%">
+<img src="/images/cube_results.png" ALIGN="right" height="100%" width="100%">
 
 Let's do it step by step:
 
@@ -24,7 +24,7 @@ So far, nothing seems to be intuitively wrong. For $D=2$, we get the radius of t
 
 Notice, however, that $r(D)$ is monotonic and unbounded from above in $D$. This means that as the dimension grows, the central sphere will grow in radius, while the linear size of the cube stays the same. At some point, **the sphere must stick out of the cube**! And it isn't even such a high dimension you need for that to be the case: $r(D) > 2a \implies D > 9$. 
 
-<img src="images/sphere_spilling_out.png" ALIGN="right" height="50%" width="50%">
+<img src="/images/sphere_spilling_out.png" ALIGN="right" height="50%" width="50%">
 
 For dimension $D>9$, the simplified, three-dimensional-turned-two-dimensional mental picture is of a cube from which parts of the inner sphere are sticking out through the middles of the cube walls.
 
