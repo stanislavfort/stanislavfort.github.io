@@ -69,9 +69,8 @@ I am interested in emergence, AI, and physics. My current focus is on 1) (empiri
                           </div>
                             </td>
                             <td width="75%" valign="top">
-                    <p><a href = "https://arxiv.org/abs/2107.05802">
-                      <papertitle>20. Adversarial vulnerability of powerful near out-of-distribution detection</papertitle></a><br>
-      Brett W. Larsen, <strong>Stanislav Fort</strong><br>
+                    <p><a href = "https://arxiv.org/abs/2201.07012">
+                      <papertitle>20. Adversarial vulnerability of powerful near out-of-distribution detection</papertitle></a><br><strong>Stanislav Fort</strong><br>
                             </p><p></p>
                       <p>Large models and massive pretraining have significantly improved near-OOD detection. Despite that, we show that even the most well-performing methods are very brittle when we design adversarial attacks specifically against their OOD score. The code is <a href="https://github.com/stanislavfort/adversaries_to_OOD_detection">available on GitHub</a>.</p>
                             </td>
