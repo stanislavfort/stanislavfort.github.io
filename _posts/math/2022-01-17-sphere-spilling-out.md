@@ -3,6 +3,7 @@ title: "A high-dimensional sphere spilling out of a high-dimensional cube despit
 
 
 ---
+I have a [substack newsletter in Czech now](https://stanislavfort.substack.com/).
 
 Make a square, split each side into two halves, producing four cells. Put a circle into each cell such that it fills it completely. There is a small gap right in the middle of the square. Put a circle there again such that it touches the other four circles. The central circle is *obviously inside* the square, right? Yes, but only if the dimension you are in is $D\le9$. Above that, the central cicle actually *spills out* from the cube, despite the $2^D$ spheres in their cells keeping it in. In this post I present this simple-to-compute yet utterly counter-intuitive result.
 
