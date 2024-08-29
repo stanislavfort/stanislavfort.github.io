@@ -49,3 +49,16 @@ I believe that the problem of adversarial attacks in vision shares many of the k
 >“In adversarial machine learning we wrote over 9000 papers in ten years and got nowhere. You all have a harder problem. And less time.” 
 
 We should dedicate a considerable effort to understanding and solving adversarial attacks in vision. I started myself with the paper [_Ensemble everything everywhere: Multi-scale aggregation for adversarial robustness_](https://arxiv.org/abs/2408.05446) ([explainer on X/Twitter](https://x.com/stanislavfort/status/1823347721358438624)), taking inspiration from biology and reaching SOTA or above SOTA robustness without any adversarial training at 100x – 1000x less compute. We can view the problem as a proving ground for ideas and techniques to be later applied to the AI alignment problem at large. I believe we can make a dent in it relatively quickly, but it has to be done anyway, so let’s give it a serious try! 
+
+If you find this blogpost useful and would like to cite it, please use the following BibTeX:
+
+```latex
+@misc{
+Fort2024AdversarialattacksAIalignment,
+title={Solving adversarial attacks in computer vision as a baby version of general AI alignment},
+url={https://stanislavfort.com/blog/Adversarial_attacks_and_AI_alignment/},
+author={Stanislav Fort},
+year={2024},
+month={Aug}
+}
+```
